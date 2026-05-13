@@ -19,7 +19,7 @@ function Dashboard() {
 
     const fetchThreats = () => {
 
-      axios.get('http://127.0.0.1:8000/threats')
+      axios.get('https://ai-network-backend.onrender.com')
 
         .then(response => {
 
